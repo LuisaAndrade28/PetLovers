@@ -1,0 +1,18 @@
+/* barraNavegacao.css */
+
+.navbar-custom {
+    background-color: #ffc107; /* Cor de fundo */
+    color: #000; /* Cor do texto */
+}
+
+.navbar-custom .navbar-brand {
+    color: #000; /* Cor do texto do logotipo */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #000; /* Cor do texto dos links */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #333; /* Cor do texto dos links ao passar o mouse */
+}
