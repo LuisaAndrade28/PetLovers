@@ -1,0 +1,37 @@
+/* Estilos para as tabelas */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+  border: none;
+  padding: 12px 16px;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.table-title {
+    font-size: 1.5rem;
+    color: #333; /* Cor do texto */
+    background-color: #f2f2f2; /* Cor de fundo */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
