@@ -13,9 +13,6 @@ import SubMenuProdutos from "../negocio/subMenuProdutos";
 import SubMenuServicos from "../negocio/subMenuServicos";
 import TestesValidarLista from "./teste";
 
-console.log(`-----------------------------------------------------------------------------------`)
-console.log(`Bem-vindo ao Melhor Sistema de Gerenciamento de Pet Shops e Clínicas Veterinarias`)
-console.log(`-----------------------------------------------------------------------------------`)
 let empresa = new Empresa()
 let testes = new TestesValidarLista(empresa.getClientes, empresa.getProdutos, empresa.getServicos)
 testes.gerarUsuariosTeste()
@@ -100,7 +97,7 @@ while (execucao) {
             break;
         case 0:
             execucao = false
-            console.log(`Até mais`)
+            console.log(`Volte sempre`)
             console.log(`--------------------------------------------------------------------`)
             break;
         default:
